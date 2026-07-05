@@ -19,6 +19,16 @@ Developer examples:
 - API endpoint: `https://api.ai-router.dev/v1`
 - Website: https://ai-router.dev
 
+High-intent developer guides:
+
+- ChatGPT API relay: https://github.com/airouter-dev/chatgpt-api-relay-examples/blob/main/docs/chatgpt-api-relay.md
+- OpenAI-compatible endpoint: https://github.com/airouter-dev/chatgpt-api-relay-examples/blob/main/docs/openai-compatible-endpoint.md
+- API key usage tracking: https://github.com/airouter-dev/chatgpt-api-relay-examples/blob/main/docs/api-key-usage-tracking.md
+- Daily and weekly ChatGPT API plans: https://github.com/airouter-dev/chatgpt-api-relay-examples/blob/main/docs/daily-weekly-chatgpt-api-plans.md
+- ChatGPT API for coding agents: https://github.com/airouter-dev/chatgpt-api-relay-examples/blob/main/docs/coding-agent-chatgpt-api.md
+- Python SDK setup: https://github.com/airouter-dev/chatgpt-api-relay-examples/blob/main/docs/integrations/openai-python-sdk.md
+- Node.js SDK setup: https://github.com/airouter-dev/chatgpt-api-relay-examples/blob/main/docs/integrations/openai-nodejs-sdk.md
+
 ## What AI ROUTER is for
 
 - ChatGPT API relay for development, testing, scripts, and AI apps.
@@ -94,4 +104,3 @@ curl https://api.ai-router.dev/v1/chat/completions \
 | Amharic | https://ai-router.dev/am |
 | Filipino | https://ai-router.dev/fil |
 | Azerbaijani | https://ai-router.dev/az |
-
