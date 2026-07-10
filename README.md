@@ -21,6 +21,7 @@ Use the OpenAI-style endpoint, connect existing apps with minimal code changes, 
 Developer examples:
 
 - OpenAI-compatible examples repo: https://github.com/airouter-dev/ai-router-openai-compatible-examples
+- Localized landing page index: https://github.com/airouter-dev/ai-router-openai-compatible-examples/blob/main/docs/localized-landing-pages.md
 - API endpoint: `https://api.ai-router.dev/v1`
 - Website: https://ai-router.dev
 
