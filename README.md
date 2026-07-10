@@ -1,6 +1,11 @@
 # AI ROUTER
 
-AI ROUTER is an OpenAI-compatible ChatGPT API relay for developers who need a practical API key, usage visibility, and clear daily or weekly quota plans.
+AI ROUTER is an OpenAI-compatible ChatGPT API relay for developers who want a practical API key, usage visibility, and low-friction onboarding.
+
+New users currently get `20U` total credit:
+
+- `5U` available on signup
+- `15U` unlocked after top-up
 
 Use the OpenAI-style endpoint, connect existing apps with minimal code changes, and monitor API key usage from the dashboard.
 
@@ -15,25 +20,20 @@ Use the OpenAI-style endpoint, connect existing apps with minimal code changes, 
 
 Developer examples:
 
-- ChatGPT API relay examples: https://github.com/airouter-dev/chatgpt-api-relay-examples
+- OpenAI-compatible examples repo: https://github.com/airouter-dev/ai-router-openai-compatible-examples
 - API endpoint: `https://api.ai-router.dev/v1`
 - Website: https://ai-router.dev
 
 High-intent developer guides:
 
-- ChatGPT API relay: https://github.com/airouter-dev/chatgpt-api-relay-examples/blob/main/docs/chatgpt-api-relay.md
-- OpenAI-compatible endpoint: https://github.com/airouter-dev/chatgpt-api-relay-examples/blob/main/docs/openai-compatible-endpoint.md
-- API key usage tracking: https://github.com/airouter-dev/chatgpt-api-relay-examples/blob/main/docs/api-key-usage-tracking.md
-- Daily and weekly ChatGPT API plans: https://github.com/airouter-dev/chatgpt-api-relay-examples/blob/main/docs/daily-weekly-chatgpt-api-plans.md
-- ChatGPT API for coding agents: https://github.com/airouter-dev/chatgpt-api-relay-examples/blob/main/docs/coding-agent-chatgpt-api.md
-- Python SDK setup: https://github.com/airouter-dev/chatgpt-api-relay-examples/blob/main/docs/integrations/openai-python-sdk.md
-- Node.js SDK setup: https://github.com/airouter-dev/chatgpt-api-relay-examples/blob/main/docs/integrations/openai-nodejs-sdk.md
+- Setup examples: https://github.com/airouter-dev/ai-router-openai-compatible-examples
 
 ## What AI ROUTER is for
 
 - ChatGPT API relay for development, testing, scripts, and AI apps.
 - OpenAI-compatible API calls for lower migration cost.
 - API key management with usage, quota, balance, and subscription visibility.
+- New-user onboarding with `20U` total credit (`5U` on signup, `15U` unlocked after top-up).
 - Daily and weekly ChatGPT API plans for short tests and ongoing workflows.
 
 AI ROUTER is not an official OpenAI service. It provides an independent relay service with OpenAI-compatible request patterns. Availability, model names, plans, and pricing are shown in the product dashboard.
@@ -45,7 +45,7 @@ curl https://api.ai-router.dev/v1/chat/completions \
   -H "Authorization: Bearer $AI_ROUTER_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
-    "model": "gpt-5.4-mini",
+    "model": "gpt-4.1-mini",
     "messages": [
       { "role": "user", "content": "Say hello from AI ROUTER." }
     ]
